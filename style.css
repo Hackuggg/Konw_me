@@ -1,0 +1,108 @@
+* {
+   margin:0;
+   padding:0;
+   }
+body {
+      background-image:url("img/Body.jpg");
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-size:cover;
+      color:white;
+      }
+/*........ ... Header............... */      
+.bk-contenar  {
+              width:90%;
+              height:300px;
+              background:black;
+              opacity:0.4;
+              border:2px solid blue;
+              margin-top:10px;
+              margin-left:15px;
+              margin-right:15px;
+              border-radius:5px;
+              }
+.img-cont img {
+           width:200px;
+           position:absolute;
+           left:20%;
+           top:4%;
+           border:2px solid white; 
+           border-radius:50%;
+           }      
+.text    {
+          position:absolute;
+          top:40%;
+          left:15%;
+          color:white;
+          text-align:center;
+          }      
+      
+      
+/*.......IMG/IMG/IMG........*/    
+.cgl {
+      width:100%;
+      height:auto;
+      background:white;
+      }  
+      
+.cgl img {
+          width:90%;
+          margin:5px 0px 0px 10px;
+         }     
+
+.digital img {
+             width:100%;
+             }
+
+
+
+
+
+
+/*....... RESPONCIV....... */
+@media screen (min-width: 300px) and (max-width:600px)  {
+.img-cont img{
+     position:absolute;
+     left:20%;
+     top:4%;
+     border:2px solid white; 
+     border-radius:50%;
+     }
+     
+     }
+     
+     
+     
+
+@media only screen (max-width:900px ) and (min-width: 600px)  {
+.img-cont img{
+             position:absolute;
+             border:none;
+             width:300px;
+             height:auto;
+              }
+     
+     }
+
+/*..... paragraph...... */
+.paragraph {
+           position:absolute;
+           }
+
+
+/*....... FOOTER..... */
+footer {
+        background:black;
+        bottom:0;
+        }
+.foot{  position:absolute;
+        text-align:center;
+        width:100%;
+        
+        border-top:2px solid blue;
+        border-bottom:2px solid blue;
+        }
+.foot h5,p{
+         margin-top:5px;
+         font-size:20px;
+         }
